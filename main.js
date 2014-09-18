@@ -28,6 +28,12 @@ $(document).on('ready', function() {
 
 	});
 
+	$("p").on("mouseout", function() {
+
+		$("p").css({ color: "" });
+
+	});
+
 	// Add exclamation point to end of EACH heading
 	$("h1,h2").append("!");
 
