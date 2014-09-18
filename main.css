@@ -9,46 +9,53 @@
 	font-size: 12px;
 }
 
-.button {
+.button-body {
 	text-align: center;
-	width: 40%;
-	margin:auto;
-}
-
-.button-body a {
 	background: #FF0066;
 	border: 1px solid #FF0066;   
 	border-radius: 10px;      
 	padding: 10px;
-	margin: 10px;
 	display: block;
+
+}
+
+.button-body a {
 	color: #fff;
 	text-decoration: none;
+}
+
+.button-h1 {
+	text-align: center;
+	background: red;
+	border: 1px solid red;   
+	border-radius: 10px;      
+	padding: 10px;
+	display: block;
 }
 
 .button-h1 a {
-	background: green;
-	border: 1px solid green;   
-	border-radius: 10px;      
-	padding: 10px;
-	margin: 10px;
-	display: block;
 	color: #fff;
 	text-decoration: none;
 }
 
-.button-list a {
-	background: blue;
-	border: 1px solid blue;   
+.button-list {
+	text-align: center;
+	background: #FF0066;
+	border: 1px solid #FF0066;   
 	border-radius: 10px;      
 	padding: 10px;
-	margin: 10px;
 	display: block;
+}
+
+.button-list a {
 	color: #fff;
 	text-decoration: none;
 }
 
 .button-large a {
+	text-align: center;
+	width: 40%;
+	margin:auto;
 	background: #FF0066;
 	border: 1px solid #FF0066;   
 	border-radius: 10px;      
@@ -59,16 +66,3 @@
 	font-size: 1.3em;
 }
 
-/* Lightbox - from Modularity 1 exercise */  
-
-.popup {
-	padding:20px 10px;
-	width: 400px;
-	background-color: #ffffff;
-	border: 1px solid #000000;
-	border-radius: 10px;  /*This creates the rounded corners  */
-	position:fixed;
-	left:0;
-	right:0;
-	margin:auto;
-}

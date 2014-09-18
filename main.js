@@ -63,18 +63,14 @@ $(document).on('ready', function() {
 		
 		// Append popup HTML/CSS
 		$("body").append("<div class = 'popup'><p>I'm a popup, bitches!</p><button>Close</button></div>");
-		$(".popup").css({ background: #000, width: 400, height: 200 })
+		$(".popup").css({ width: 200, height: 200, margin: 'auto', background: '#000'});
 
-	});  /* End of event handler*/
+			// When you click the button in the popup, remove the popup from view
+			$(".popup button").on("click", function() {
+				$(".popup").remove();
+			});   // End hide popup
 
-	$(".popup button").click(function() {
-
-		$(".popup").hide();
-
-	});
-
-
-
+	}); /* End of event handler*/
 
 
 
